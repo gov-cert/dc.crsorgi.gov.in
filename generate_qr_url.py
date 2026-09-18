@@ -8,5 +8,5 @@ def generate(url, filename):
     img.save(filename)
     print(f"Generated {filename} for {url}")
 
-generate('https://gov-cert.vercel.app/verify/vedant', 'C:\\Project 2\\BIRTH\\qr_vedant.png')
-generate('https://gov-cert.vercel.app/verify/viransh', 'C:\\Project 2\\BIRTH\\qr_viransh.png')
+generate('https://gov-cert.vercel.app/vedant.html', 'C:\\Project 2\\BIRTH\\qr_vedant.png')
+generate('https://gov-cert.vercel.app/viransh.html', 'C:\\Project 2\\BIRTH\\qr_viransh.png')
